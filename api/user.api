@@ -1,0 +1,13 @@
+syntax = "v1"
+
+type (
+    UserRequest{
+        ID int64 `path:"id"`
+    }
+
+    UserReply {
+        ID int64
+        Name string
+        Balance float64
+    }
+)
